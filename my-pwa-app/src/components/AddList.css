@@ -1,0 +1,52 @@
+/* AdList.css */
+.announcement-list-container {
+    display: flex;
+    justify-content: center;
+}
+
+.announcement-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.announcement-table th,
+.announcement-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.announcement-table th {
+    text-align: left;
+}
+
+.announcement-table td {
+    vertical-align: top;
+}
+
+.edit-form input {
+    margin-bottom: 5px;
+}
+
+.save-btn,
+.edit-btn,
+.delete-btn {
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.edit-btn {
+    background-color: #1e90ff;
+    color: #fff;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+}

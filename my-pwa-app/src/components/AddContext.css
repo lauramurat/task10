@@ -1,0 +1,17 @@
+/* AnnouncementContext.css */
+
+.announcement-context-container {
+    width: 400px; /* Ширина контейнера */
+    margin: 0 auto; /* Центрирование контейнера */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Цвет фона */
+}
+
+.announcement-context-container h2 {
+    text-align: center; /* Выравнивание заголовка по центру */
+    color: #333; /* Цвет текста заголовка */
+}
+
+/* Дополнительные стили могут быть добавлены сюда */
