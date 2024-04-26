@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { AnnouncementProvider } from './AddContext';
-import AnnouncementList from './AddList';
-import AddForm from './AddForm';
+import { AnnouncementProvider } from './components/AddContext';
+import AnnouncementList from './components/AddList';
+import AddForm from './components/AddForm';
 
 const App = () => {
     return (

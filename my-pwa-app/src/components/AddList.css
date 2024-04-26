@@ -1,52 +1,64 @@
-/* AdList.css */
 .announcement-list-container {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 
 .announcement-table {
-    width: 80%;
+    width: 90%;
+    max-width: 600px;
     border-collapse: collapse;
     margin-top: 20px;
-}
-
-.announcement-table th,
-.announcement-table td {
-    padding: 8px;
-    border: 1px solid #ddd;
+    margin-bottom: 20px;
 }
 
 .announcement-table th {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
     text-align: left;
+    border: 1px solid #ddd;
 }
 
 .announcement-table td {
-    vertical-align: top;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
 }
 
-.edit-form input {
-    margin-bottom: 5px;
-}
-
-.save-btn,
 .edit-btn,
+.save-btn,
 .delete-btn {
-    margin-top: 5px;
     padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.save-btn {
+.edit-btn {
     background-color: #3498db;
     color: #fff;
 }
 
-.edit-btn {
-    background-color: #1e90ff;
+.edit-btn:hover {
+    background-color: #2c3e50;
+}
+
+.save-btn {
+    background-color: #27ae60;
     color: #fff;
 }
 
+.save-btn:hover {
+    background-color: #218c53;
+}
+
+/* Кнопка удаления */
 .delete-btn {
     background-color: #e74c3c;
     color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
 }
